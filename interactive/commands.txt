@@ -1,0 +1,15 @@
+
+code tunnel user login --provider github 
+nohup code tunnel --accept-server-license-terms --name 001 &> output.log &
+
+code tunnel --accept-server-license-terms --name 001
+
+code tunnel status
+code tunnel user show
+
+
+
+
+
+
+
